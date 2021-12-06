@@ -19,10 +19,13 @@ let myCollection = [
   console.log(myCollection);
 
 function describeItem(item){
-    item = myCollection.name
-    console.log(item.count)
+    if(item.count === 1){
+        console.log(`we have ${item.name}`)
+    } else {
+        console.log(`we have ${item.count} ${item.name}s`)
+    }
+    
 }
 
 
-
-console.log(describeItem("School of Code mug"))
+describeItem(myCollection[1])
