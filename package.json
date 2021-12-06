@@ -1,0 +1,22 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "node workshop 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/node-101-workshop-mariano-conor.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "mariano-and-conor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/node-101-workshop-mariano-conor/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-mariano-conor#readme"
+}
